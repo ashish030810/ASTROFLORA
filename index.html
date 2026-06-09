@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astro-Flora | Space Greenhouse System</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0d1117;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin:0;
+}
+
+header p{
+    font-size:1.2rem;
+    color:#cbd5e1;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:#161b22;
+    padding:20px;
+    border-radius:12px;
+    margin:15px 0;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.feature{
+    background:#161b22;
+    padding:20px;
+    border-radius:10px;
+}
+
+.progress{
+    width:100%;
+    background:#333;
+    border-radius:20px;
+}
+
+.progress-bar{
+    width:50%;
+    background:#22c55e;
+    color:white;
+    text-align:center;
+    padding:10px 0;
+    border-radius:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#111827;
+    color:#94a3b8;
+}
+
+.btn{
+    display:inline-block;
+    background:#22c55e;
+    color:white;
+    padding:12px 24px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌿 Astro-Flora</h1>
+    <p>Automated Life-Support Greenhouse for Space Habitats</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>🚀 About The Project</h2>
+        <p>
+            Astro-Flora is an Arduino-powered autonomous greenhouse
+            designed for future lunar and Martian habitats.
+            The system monitors plant health, automates irrigation,
+            regulates environmental conditions, and helps conserve
+            critical resources in extreme space environments.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>✨ Features</h2>
+
+    <div class="features">
+        <div class="feature">
+            <h3>💧 Smart Irrigation</h3>
+            <p>Dual-zone soil moisture monitoring and automatic watering.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🌡 Climate Control</h3>
+            <p>Automatic heater and exhaust fan management.</p>
+        </div>
+
+        <div class="feature">
+            <h3>☀ Day/Night Cycle</h3>
+            <p>Grow-light automation simulating Earth conditions.</p>
+        </div>
+
+        <div class="feature">
+            <h3>📟 Telemetry</h3>
+            <p>LCD display and real-time environmental monitoring.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🚨 Safety System</h3>
+            <p>Reservoir monitoring and emergency alerts.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🔒 Crew Access Logs</h3>
+            <p>Entry and exit tracking for habitat management.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>🛠 Hardware</h2>
+
+    <div class="card">
+        <ul>
+            <li>Arduino Mega 2560</li>
+            <li>Soil Moisture Sensors</li>
+            <li>Water Pumps</li>
+            <li>Relay Modules</li>
+            <li>LCD I2C Display</li>
+            <li>Buzzer</li>
+            <li>Temperature Sensor</li>
+            <li>Water Level Sensor</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>📈 Progress</h2>
+
+    <div class="card">
+        <p><strong>Current Status:</strong> 50% Complete</p>
+
+        <div class="progress">
+            <div class="progress-bar">50%</div>
+        </div>
+
+        <br>
+
+        <p><strong>Hackatime Logged:</strong> 4h 35m</p>
+    </div>
+</section>
+
+<section>
+    <h2>🔮 Future Plans</h2>
+
+    <div class="card">
+        <ul>
+            <li>ESP32 Wi-Fi Dashboard</li>
+            <li>Cloud Data Logging</li>
+            <li>Humidity Monitoring</li>
+            <li>Mobile App Integration</li>
+            <li>Mars Resource Optimization Mode</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>📸 Project Media</h2>
+
+    <div class="card">
+        <h3>🌿 Astro-Flora Concept Art</h3>
+        <img src="AstroFlora.png"
+             alt="Astro-Flora Concept"
+             style="width:100%; border-radius:10px;">
+
+        <p><em>AI-generated concept visualization of Astro-Flora.</em></p>
+
+        <hr>
+
+        <h3>⏱️ Hackatime Progress</h3>
+        <img src="IMAGE.png"
+             alt="Hackatime Screenshot"
+             style="width:100%; border-radius:10px;">
+
+        <p><em>4h 35m tracked development time.</em></p>
+    </div>
+</section>
+
+<section style="text-align:center;">
+    <a href="https://github.com/yourusername/astro-flora" class="btn">
+        View GitHub Repository
+    </a>
+</section>
+
+<footer>
+    <p>🌱 Astro-Flora Project | Built by Ashish for Hack Club Stardance 🚀</p>
+</footer>
+
+</body>
+</html>
